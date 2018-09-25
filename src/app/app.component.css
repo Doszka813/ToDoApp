@@ -14,7 +14,6 @@
     text-align: center;
     background-color: rgba(112, 67, 112, 0.95);
     border-radius: 15px;
-
 }
 
 header {
@@ -39,6 +38,9 @@ header .new-todo {
     text-align: left;
 }
 
+.view {
+    padding: 5px;
+}
 .view .toggle {
     width: 2em;
     height: 2em;
@@ -50,8 +52,7 @@ header .new-todo {
 }
 
 .destroy {
-    position: relative;
-    top: 50%;
+    float: right;
     color: rgb(97, 211, 135);
 }
 
