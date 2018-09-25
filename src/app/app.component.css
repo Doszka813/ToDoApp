@@ -22,6 +22,8 @@ body {
     padding: 20px auto;
     text-align: center;
     background-color: rgba(112, 67, 112, 0.95);
+    border-radius: 15px;
+
 }
 
 header {
@@ -39,7 +41,7 @@ header .new-todo {
 .main ul li {
     font-size: 2em;
     list-style-type: none;
-    border-bottom: 1px dotted pink;
+    border-bottom: 1px dotted rgb(97, 211, 135);
 }
 
 .main .todo-list {
@@ -50,6 +52,7 @@ header .new-todo {
     width: 2em;
     height: 2em;
 }
+
 .view label {
     padding: 5px;
     margin: 0 5px;
@@ -58,10 +61,14 @@ header .new-todo {
 .destroy {
     position: relative;
     top: 50%;
-    color: pink;
+    color: rgb(97, 211, 135);
 }
 
 .main {
     width: 50%;
     margin: 0 auto;
+}
+
+footer {
+    font-size: 1.5em;
 }
